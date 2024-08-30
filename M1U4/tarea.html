@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de distancias</title>
+</head>
+<body>
+    <script>
+        x = parseInt(prompt('Ingrese la distancia recorrer:', ''));
+        
+        if (x<=1000){
+        document.write (`El transporte apropiado es a pie`);
+        }
+        else if (x>1000 || x<10000) {
+            document.write (`El transporte apropiado es bicibleta`);
+        }
+        else if (x>10000 || x<30000){
+            document.write (`El transporte ideal es colectivo`);
+        }
+        else if (x>30000 || x<100000){
+            document.write (`El transporte ideal es auto`);
+        }
+        else if (x>100000){
+            document.write (`El transporte ideal es avión`);
+        }
+    </script>
+</body>
+</html>
