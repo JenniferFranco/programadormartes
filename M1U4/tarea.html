@@ -7,23 +7,25 @@
 </head>
 <body>
     <script>
-        x = parseInt(prompt('Ingrese la distancia recorrer:', ''));
-        
-        if (x<=1000){
-        document.write (`El transporte apropiado es a pie`);
+        let x = parseInt(prompt('Ingrese la distancia recorrer:', ''));
+        let transporte = '';
+
+        if (x>0 && x<=1000){
+            transporte = 'pie';
         }
-        else if (x>1000 || x<10000) {
-            document.write (`El transporte apropiado es bicibleta`);
+        else if (x>1000 && x<=10000) {
+            transporte = 'bicicleta'
         }
-        else if (x>10000 || x<30000){
-            document.write (`El transporte ideal es colectivo`);
+        else if (x>10000 && x<=30000){
+           transporte = 'colectivo';
         }
-        else if (x>30000 || x<100000){
-            document.write (`El transporte ideal es auto`);
+        else if (x>30000 && x<=100000){
+           transporte = 'auto';
         }
         else if (x>100000){
-            document.write (`El transporte ideal es avión`);
+            transporte = 'avion';
         }
-    </script>
+document.write (`El transporte ideal para ${x} metros es: ${transporte}`);
+</script>
 </body>
 </html>
