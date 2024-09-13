@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+textarea{
+    background-color: #eed;
+    border: 2px solid #eeed;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 50%;
+}
