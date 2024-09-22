@@ -1,0 +1,56 @@
+
+.navbar{
+    background-color: #4F4F2F;
+    color: #F2E8D9;
+}
+
+.footer{
+    background-color: #928879;
+    color: #F2E8D9;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.carousel-caption {
+    color: #F2E8D9
+}
+
+.spa{
+    color: #4F4F2F;
+}
+
+.container{
+    margin-top: 30px;
+}
+.nosotros{
+    background-color: #4F4F2F;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #F2E8D9;
+}
+
+.informacion{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.consulta{
+    background-color: #F2E8D9;
+    margin-left: 90px;
+    border-radius: 5px ;
+    
+}
+.subtitulo{
+    margin: 10px 0;
+    text-align: center;
+    color: #8C9A4E;
+}
+
+.btn-primary{
+    background-color: #8C9A4E;
+    border: 1px solid #8C9A4E;
+}
+
+textarea{
+    resize: none;
+}
