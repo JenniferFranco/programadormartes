@@ -1,6 +1,7 @@
 body{
     background-color: #F4F1E1;
     color: #4D4D4D;
+    font-family: "Open Sans", sans-serif;
 }
 
 .navbar{
@@ -13,12 +14,6 @@ body{
 
 .margen{
     margin-top: 15px;
-}
-.footer{
-    background-color: #928879;
-    color: #F2E8D9;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .carousel-caption {
@@ -37,6 +32,7 @@ body{
     margin-bottom: 20px;
     text-align: center;
     color: #8C9A4E;
+    font-family: "Bitter", cursive;
 }
 
 .btn-primary{
@@ -57,7 +53,7 @@ textarea{
 
 .fondo-carpa {
     background: url(Img/fondo-carpas.JPG);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
@@ -82,6 +78,7 @@ textarea{
     padding: 200px 0px;
     text-align: center;
     color: #F2E8D9;
+    font-family: "Alfa Slab One", cursive;
  }
 
 
@@ -93,10 +90,13 @@ textarea{
 
 .titulo-fondo{
     font-size: 40px;
+    font-family: "Alfa Slab One", cursive;
+    
 }
 
 .subtitulo-fondo{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Bitter", cursive;
 }
 
 .mapa iframe {
@@ -123,4 +123,11 @@ textarea{
 
 .card-text{
 text-align: center;
+}
+
+.footer{
+    background-color: #928879;
+    color: #F2E8D9;
+    text-align: center;
+    margin-top: 30px;
 }
