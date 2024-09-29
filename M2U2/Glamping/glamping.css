@@ -75,10 +75,9 @@ textarea{
 }
 
 .info-fondo{
-    padding: 200px 0px;
+    padding: 250px 0px;
     text-align: center;
     color: #F2E8D9;
-    font-family: "Alfa Slab One", cursive;
  }
 
 
@@ -95,7 +94,7 @@ textarea{
 }
 
 .subtitulo-fondo{
-    font-size: 30px;
+    font-size: 22px;
     font-family: "Bitter", cursive;
 }
 
