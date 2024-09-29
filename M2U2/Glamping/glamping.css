@@ -1,9 +1,19 @@
+body{
+    background-color: #F4F1E1;
+    color: #4D4D4D;
+}
 
 .navbar{
     background-color: #4F4F2F;
+   
+}
+.dropdown-toggle, .navbar-brand, .nav-link{
     color: #F2E8D9;
 }
 
+.margen{
+    margin-top: 15px;
+}
 .footer{
     background-color: #928879;
     color: #F2E8D9;
@@ -15,34 +25,16 @@
     color: #F2E8D9
 }
 
-.spa{
+.img-spa{
     color: #4F4F2F;
 }
 
-.container-fluid{
-    margin-top: 30px;
-}
-.nosotros{
-    background-color: #4F4F2F;
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: #F2E8D9;
-    margin: 10px 0px 0px 26px;
-}
-
-.informacion{
-    margin-top: 40px;
-    font-size: 18px;
-}
-
-.consulta{
+.fondo-adicional{
     background-color: #F2E8D9;
-    margin: 10px 0px 0px 50px;
-    border-radius: 5px ;
-    
 }
+
 .subtitulo{
-    margin: 10px 0;
+    margin-bottom: 20px;
     text-align: center;
     color: #8C9A4E;
 }
@@ -54,4 +46,75 @@
 
 textarea{
     resize: none;
+}
+
+.fondo{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  
+}
+
+.fondo-carpa {
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/25/06/26/glamping-6490987_1280.jpg);
+    background-position: bottom;
+
+}
+
+.fondo-eventos{
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/03/02/14/56/painting-2111495_1280.jpg); */
+    background: url(Img/vino.png);
+    background-position: center;
+}
+
+.fondo-promociones{
+    background-image: url(https://images.unsplash.com/photo-1595511763226-288d6dee8b93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+
+.info-fondo{
+    padding: 200px 0px;
+    text-align: center;
+    color: #F2E8D9;
+ }
+
+
+.card{
+    background-color:#F2E8D9;
+    border: 1px solid #8C9A4E;
+
+}
+
+.titulo-fondo{
+    font-size: 40px;
+}
+
+.subtitulo-fondo{
+    font-size: 20px;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+.formulario{
+    background-color: #F2E8D9;
+    margin: 10px 0px 0px 50px;
+    border-radius: 5px ;
+    border: 1px solid #928879;
+    padding: 0px 5px 10px 5px;
+}
+
+.aclaracion-evento{
+    text-align: center;
+    color: #4F4F2F;
+}
+
+.sub-evento{
+    margin: 5px 0px;
+}
+
+.card-text{
+text-align: center;
 }

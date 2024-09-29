@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #4F4F2F;
+    color: #F2E8D9;
+}
+
+.dropdown-toggle, .navbar-brand, .nav-link{
+    color: #F2E8D9;
+}
+
+p{
+    text-align: left;
+    
+}
+
+.col{
+    border:1px solid #4F4F2F;
+    border-radius: 5px;
+    background-color: #F2E8D9;
+    margin: 30px 20px;
+    padding: 10px;
+    background-size: contain;
+    background-position: center;
+}
+
+.subtitulo{
+    margin: 10px 0;
+    text-align: center;
+    color: #8C9A4E;
+}
+
+.box{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/25/06/26/glamping-6490987_1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+.contenedor-inicio{
+   padding: 220px;
+}
+
+h2, h5{
+    text-align: center;
+    color: #F2E8D9;
+    font-size: 46px;
+}
+h5{
+    text-align: center;
+    color: #F2E8D9;
+    font-size: 26px;
+}
+img{
+    
+}
