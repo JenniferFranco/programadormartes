@@ -56,20 +56,25 @@ textarea{
 }
 
 .fondo-carpa {
-    background-image: url(https://cdn.pixabay.com/photo/2021/07/25/06/26/glamping-6490987_1280.jpg);
-    background-position: bottom;
+    background: url(Img/fondo-carpas.JPG);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
 
 }
 
 .fondo-eventos{
-    /* background-image: url(https://cdn.pixabay.com/photo/2017/03/02/14/56/painting-2111495_1280.jpg); */
-    background: url(Img/vino.png);
-    background-position: center;
+    background: url(Img/fondo-evento.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
 }
 
 .fondo-promociones{
-    background-image: url(https://images.unsplash.com/photo-1595511763226-288d6dee8b93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
+    background: url(Img/vino.png);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
 }
 
 .info-fondo{
