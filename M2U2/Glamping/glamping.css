@@ -57,6 +57,7 @@ textarea{
 
 .fondo-carpa {
     background: url(Img/fondo-carpas.JPG);
+    background-position: center;
     background-size: cover;
     height: 50vh;
     min-height: 600px;
