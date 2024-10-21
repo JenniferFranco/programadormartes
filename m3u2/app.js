@@ -30,24 +30,6 @@ app.use('/carpas', carpasRouter);
 app.use('/eventos', eventosRouter);
 app.use('/promociones', promocionesRouter);
 
-// ruta 1
-app.get('/prueba', function(req,res){
-
-  res.send('Hola soy la pagina de prueba')
-})
-
-// Ruta 2
-app.get('/nosotros', function(req,res){
-
-  res.send('Hola soy la pagina de Nosotros!!!')
-})
-
-// Ruta 3
-app.get('/destacados', function(req,res){
-
-  res.send('Hola soy la pagina de destacados')
-})
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
