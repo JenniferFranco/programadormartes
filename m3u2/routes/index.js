@@ -13,7 +13,7 @@ module.exports = router;
 
 router.post('/', async(req, res, next) => {
   
-  var nombre = req.body.nombe;
+  var nombre = req.body.nombre;
   var apellido = req.body.apellido;
   var email= req.body.email;
   var consulta = req.body.consulta;
