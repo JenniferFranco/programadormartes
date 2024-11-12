@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 require('dotenv').config();
+var pool = require ('./models/bd')
 
 var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
@@ -31,6 +32,13 @@ app.use('/', indexRouter);
 app.use('/carpas', carpasRouter);
 app.use('/eventos', eventosRouter);
 app.use('/promociones', promocionesRouter);
+
+// ejemplo de consulta
+// select
+
+pool.query('select * from empleados').then(function (resultados){
+console.log(resultados)
+});
 
 
 // catch 404 and forward to error handler
